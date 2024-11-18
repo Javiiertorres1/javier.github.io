@@ -8,8 +8,14 @@
 </head>
 <body>
   <header>
-    <h1> Hola soy Javier </h1>
-    <p> Analista de sistema / programador</p>
+    <h1 data-lang = "es"> Hola soy Javier </h1>
+    <h1 data-lang = "en" style = "display:none;"> hello, I am Javier Torres </h1>
+    <p data-lang = "es"> Analista de sistema / programador</p>
+    <p data-lang = "en" style = "display:none;">system analyst / programmer</p>
+    <nav>
+      <button onclick = "changelanguage('es')">Esoañol</button>
+      <button onclick = "changelanguage('en')">English</button>
+    </nav>
   </header>
 
   <section>
