@@ -1,4 +1,4 @@
-function changeLanguage(language){
+function changelanguage(language){
   // oculta todos los elementos con data-lang
   const elements = document.querySelectorAll('[data-lang]');
   elements.forEach(element => {
